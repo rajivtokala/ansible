@@ -1,6 +1,6 @@
 ---
-hosts: webservers
-- tasks:
+- hosts: webservers
+  tasks:
   -  service:
-      name: git
-      state: status
+       name: git
+       state: status
